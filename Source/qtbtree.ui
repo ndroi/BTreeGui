@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QtBtreeClass</class>
+ <widget class="QMainWindow" name="QtBtreeClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>QtBtree</string>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>600</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuB">
+    <property name="title">
+     <string>BTree</string>
+    </property>
+    <addaction name="action_NewBtree"/>
+    <addaction name="action_InsertDel"/>
+   </widget>
+   <addaction name="menuB"/>
+  </widget>
+  <action name="action">
+   <property name="text">
+    <string>插入key值</string>
+   </property>
+  </action>
+  <action name="action_key">
+   <property name="text">
+    <string>删除key值</string>
+   </property>
+  </action>
+  <action name="action_NewBtree">
+   <property name="text">
+    <string>New B Tree</string>
+   </property>
+  </action>
+  <action name="action_InsertDel">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Insert &amp; Delete</string>
+   </property>
+  </action>
+  <action name="action_DelKey">
+   <property name="text">
+    <string>删除key值</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
